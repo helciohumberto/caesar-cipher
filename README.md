@@ -1,6 +1,6 @@
 # 🗝 caesar-cipher
 
-### Decodificador de texto | Challange ONE
+### Descodificador de texto | Challange ONE
 
 ### Versões abaixo 👇 
 
