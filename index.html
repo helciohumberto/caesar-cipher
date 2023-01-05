@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,47 +13,55 @@
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/media-query.css">
 </head>
-<body>
-    <div class="container">
-      <main>
-        <header class="header">
-          <div>
-            <img class="img-logo" src="./assets/images/584bee68a62aaa830c43edac.png" alt="Logo Alura">
-          </div>
-        </header>
-        <div class="input-field">
-          <textarea
-            name="text-input-field"
-            id="text-input-field"
-            cols="30"
-            rows="10"
-            placeholder="Digite seu texto"
-          ></textarea>
-          <div class="controls">
-            <div class="instruction">
-              <img src="./assets/images/bi_exclamation-circle-fill.svg" alt="Ícone de exclamação">
-              <p>Apenas letras minúsculas e sem acento.</p>
-            </div>
-            <div class="button-box">
-              <button class="btn btn-encrypt">Criptografar</button>
-              <button class="btn btn-decrypt">Descriptografar</button>
-            </div>
-          </div>
-        </div>
-      </main>
 
-      <div class="text-output-field">
-        <div class="view-default">
-          <img src="assets/images/dedobaixo.png" class="illustration" alt="Ilustração de uma pessoa verificando um diamante com uma lupa.">
-          <div class="msg-default">
-            <p>Nenhuma mensagem encontrada</p>
-            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+<body>
+  <div class="container">
+    <main>
+      <header class="header">
+        <div>
+          <img class="img-logo" src="./assets/images/584bee68a62aaa830c43edac.png" alt="Logo Alura">
+        </div>
+      </header>
+      <div class="input-field">
+        <textarea name="text-input-field" id="text-input-field" cols="30" rows="10"
+          placeholder="Digite seu texto aqui..."></textarea>
+        <div class="controls">
+          <div class="instruction">
+            <img src="./assets/images/bi_exclamation-circle-fill.svg" alt="Ícone de exclamação">
+            <p>Apenas letras minúsculas e sem acento.</p>
+          </div>
+          <div class="button-box">
+            <button class="btn btn-encrypt">Criptografar</button>
+            <button class="btn btn-decrypt">Descriptografar</button>
           </div>
         </div>
       </div>
-      
+    </main>
+
+    <div class="text-output-field">
+      <div class="view-default">
+        <img src="assets/images/dedobaixo.png" class="illustration"
+          alt="Ilustração de uma pessoa verificando um diamante com uma lupa.">
+        <div class="msg-default">
+          <p>Nenhuma mensagem encontrada</p>
+          <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+      </div>
     </div>
 
+  </div>
+  <footer class="rodape">
+    <div class="icons">
+      <a href="https://www.linkedin.com/in/helciohumberto/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+      <a href="https://www.instagram.com/helciohumberto/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+      <a href="https://github.com/helciohumberto" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+    </div>
+    <h3><strong class="forte">Desenvolvido por Hélcio Humberto</strong></h3>
+  </footer>
+
   <script src="./assets/javascript/js.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>

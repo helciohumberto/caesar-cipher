@@ -86,6 +86,15 @@ body {
   color: white;
 }
 
+.btn-encrypt:active {
+  background-color: var(--light-blue-300);
+  color: var(--dark-blue-300);
+}
+.btn-decrypt:active {
+  background-color: var(--dark-blue-300);
+  color: white;
+}
+
 .text-output-field {
   background-color: white;
   padding: 3.2rem;
@@ -143,4 +152,36 @@ body {
 .header .img-logo {
   width: 100px;
   
+}
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  margin-top: 15px;
+  background: transparent;
+  color: var(--dark-blue-300);
+}
+
+.rodape h3 {
+  font-size: 16px;
+  
+}
+
+.forte {
+  font-weight: bold;
+
+}
+
+.icons ion-icon{
+  width: 25px;
+  height: 25px;
+  color: var(--dark-blue-300);
+}
+
+.icons ion-icon:hover {
+  color: var(--light-blue-500);
+  width: 30px;
+  height: 30px;
 }
